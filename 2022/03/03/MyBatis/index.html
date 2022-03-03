@@ -4,15 +4,36 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>MyBatis | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="创建dao, pojo, util pom.xml 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152&lt;dependencies&gt;        &lt;!-- https:&#x2F;&#x2F;mvnrepository.com&#x2F;artifact&#x2F;org.myba">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MyBatis">
+<meta property="og:url" content="http://example.com/2022/03/03/MyBatis/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="创建dao, pojo, util pom.xml 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152&lt;dependencies&gt;        &lt;!-- https:&#x2F;&#x2F;mvnrepository.com&#x2F;artifact&#x2F;org.myba">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7JdnS939HH5TayIhQo5s0aJbReBExSQO1U23XeLAXlhTWUeL87mJZL0lDzPstpY3CSIwvW0dN9ccA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7JdnS939HH5TayIhQo5s0aJJq1YuJCr3e9PsTBpBgc1tbicoshHB3qLkwgn3Jp2q8qI1dY9vGhIia3w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7KdXPq6whFkfHe43CtgZMJrr62lCnbfxl25aQ4ZDwlU4JiaMZHs3nqAoNxFsJYZRC4Cm11uSH0USNQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://gitee.com/jxgitee/pictures/raw/master/img/image-20211025211549953.png">
+<meta property="og:image" content="https://gitee.com/jxgitee/pictures/raw/master/img/image-20211025211605377.png">
+<meta property="og:image" content="https://gitee.com/jxgitee/pictures/raw/master/img/image-20211025211621960.png">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7KdXPq6whFkfHe43CtgZMJreJromy8xt3CUoLOib5TDKrge5D8oQXnKkHnMa8etVwtnsbgWDanSAFA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LZwwtchlelS8kzAAyVia5uNnMiahVkdvictXZkDDWHQCwob9rMlKtxnhiaQee5Kxa6K0BCbHH2ibRERibQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LZwwtchlelS8kzAAyVia5uNeukjWMleICg2Jsm8hTI63hvVLiarGmD7zT1CmgXlUXSUbmdhialeIjpA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LZwwtchlelS8kzAAyVia5uNvhic22X8ahJy5BdOfjy1LlDRfo8Nf3GOAzwALgvriau4SzmXZIhUUd2A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LPbib5To6slfFhMArq5QvCjofjccx37cuQgKsWEHibax0bDiaicU6ojNfEzWrj3TibFsX3MJju4sAp5Pg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7JISvrLfLvE3e9Wv1kpFL9qzPPOq4EuoibKKLvGve4vEicLpXeEHfz1flqX3ribyzpbjDlOGzziapTsIw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7KickRVspms8t4ZU0jXovPT2qe5QluO0MoibU09bTKiaGG923AzFwOSxICrM7BZFWNJqiaCUOGxDA54Tg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://gitee.com/jxgitee/pictures/raw/master/img/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7KickRVspms8t4ZU0jXovPT29RfsqgE50IOicMbHPzceX3r2BWn2U9MZ29rpQAy3gtQBnWpveiaRr2lw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="article:published_time" content="2022-03-03T09:08:38.000Z">
+<meta property="article:modified_time" content="2022-03-03T09:09:11.411Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="MybBatis">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7JdnS939HH5TayIhQo5s0aJbReBExSQO1U23XeLAXlhTWUeL87mJZL0lDzPstpY3CSIwvW0dN9ccA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,9 +90,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-MyBatis" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-MyBatis" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/03/03/MyBatis/" class="article-date">
   <time class="dt-published" datetime="2022-03-03T09:08:38.000Z" itemprop="datePublished">2022-03-03</time>
@@ -84,8 +103,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/03/03/MyBatis/">MyBatis</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      MyBatis
     </h1>
   
 
@@ -1472,570 +1491,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Vue实战" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/02/11/Vue%E5%AE%9E%E6%88%98/" class="article-date">
-  <time class="dt-published" datetime="2022-02-11T03:29:29.000Z" itemprop="datePublished">2022-02-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/02/11/Vue%E5%AE%9E%E6%88%98/">Vue实战</a>
-    </h1>
+    <a href="/2022/02/11/Vue%E5%AE%9E%E6%88%98/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Vue实战</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h2 id="1、项目初始化"><a href="#1、项目初始化" class="headerlink" title="1、项目初始化"></a>1、项目初始化</h2><p>创建Vue-cli：<code>vue create xxx</code></p>
-<p>运行：<code>npm run serve</code></p>
-<img src="https://gitee.com/jxgitee/pictures2/raw/master/202112231707336.png" alt="image-20211223170719080" style="zoom: 67%;" />
-
-<p>vue脚手架各文件夹说明：</p>
-<ul>
-<li><code>node_modules</code>：项目依赖。</li>
-<li><code>public文件夹</code>：一般放置静态资源（图片等），<code>webpack</code>进行打包时会原封不动的打包到dist文件夹中。</li>
-<li><code>src</code>：程序员源代码文件夹<ul>
-<li><code>assets</code>：一般放置静态资源（<strong>多个组件共用的静态资源</strong>），在<code>webpack</code>打包时，会把静态资源当作一个模块，打包到JS文件里面。</li>
-<li><code>App.vue</code>：唯一的根组件</li>
-<li><code>main.js</code>：程序入口文件，整个程序最先执行的文件</li>
-</ul>
-</li>
-<li><code>babel.config.js</code>：配置相关</li>
-<li><code>packag.json</code>：可以认为是项目身份证，记录项目的使用情况、依赖、运行情况</li>
-<li><code>package-locl.json</code>：缓存行文件</li>
-<li><code>README.MD</code>：常用说明文件</li>
-<li><code>.gitignore</code>：git文件</li>
-</ul>
-<h3 id="1-1、项目的其他配置"><a href="#1-1、项目的其他配置" class="headerlink" title="1.1、项目的其他配置"></a>1.1、项目的其他配置</h3><p>让脚手架运行时能自动打开浏览器</p>
-<p>在<code>package.json</code>文件中：</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;serve&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service serve --open&quot;</span><span class="punctuation">,</span> <span class="comment">//加上 --open</span></span><br><span class="line">  <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service build&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;lint&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service lint&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>关闭<code>eslint</code>的校验功能</p>
-<p>在根目录中，创建<code>vue.config.js</code>文件：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">    <span class="comment">//关闭eslint</span></span><br><span class="line">    <span class="attr">lintOnSave</span>: <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<p>src文件夹简写【<code>@</code>代表的是src文件夹，这样以后文件过多时，可以方便查找】<br>在根目录下创建<code>jsconfig.json</code>：</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;compilerOptions&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;baseUrl&quot;</span><span class="punctuation">:</span> <span class="string">&quot;./&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;@/*&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;src/*&quot;</span><span class="punctuation">]</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;exclude&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;node_modules&quot;</span><span class="punctuation">,</span> <span class="string">&quot;dist&quot;</span><span class="punctuation">]</span>  <span class="comment">//在这两个文件夹中不能使用简写</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="2、项目路由分析"><a href="#2、项目路由分析" class="headerlink" title="2、项目路由分析"></a>2、项目路由分析</h2><p><code>vue-router</code>组件：安装<code>npm install vue-router</code></p>
-<ul>
-<li>Home首页路由组件、Search路由组件、login组件、register组件</li>
-</ul>
-<p>非路由组件：</p>
-<ul>
-<li>Header组件、Footer组件（首页、收索页，登录页面没有）</li>
-</ul>
-<h2 id="3、完成非路由组件Header与Footer"><a href="#3、完成非路由组件Header与Footer" class="headerlink" title="3、完成非路由组件Header与Footer"></a>3、完成非路由组件Header与Footer</h2><p>开发项目的步骤：</p>
-<ul>
-<li>书写静态页面</li>
-<li>拆分组件</li>
-<li>获取服务器的数据动态展示</li>
-<li>完成相应的动态业务逻辑</li>
-</ul>
-<blockquote>
-<p>注意1：创建组件的时候：组件结构+组件样式+图片资源</p>
-<p>注意2：项目使用less时，安装<code>less</code>和<code>less-loader</code></p>
-<p>注意3：识别less需要在style标签中使用<code>lang=“less”</code></p>
-</blockquote>
-<h3 id="3-1、非路由组件使用步骤"><a href="#3-1、非路由组件使用步骤" class="headerlink" title="3.1、非路由组件使用步骤"></a>3.1、非路由组件使用步骤</h3><blockquote>
-<p>在components文件夹</p>
-</blockquote>
-<ul>
-<li>创建</li>
-<li>引入 <code>import</code></li>
-<li>注册 <code>components: &#123;Header&#125;</code></li>
-<li>使用 <code>&lt;Header/&gt;</code></li>
-</ul>
-<h3 id="3-2、创建路由组件"><a href="#3-2、创建路由组件" class="headerlink" title="3.2、创建路由组件"></a>3.2、创建路由组件</h3><blockquote>
-<p>在pages文件夹创建路由组件：Home首页路由组件、Search路由组件、login组件、register组件</p>
-<p>在router文件夹加配置路由</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//配置路由文件</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Vue</span> <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">VueRouter</span> <span class="keyword">from</span> <span class="string">&quot;vue-router&quot;</span></span><br><span class="line"><span class="comment">//使用创建</span></span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">VueRouter</span>)</span><br><span class="line"><span class="comment">//引入路由组件</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Home</span> <span class="keyword">from</span> <span class="string">&quot;@/pages/Home/Home&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Login</span> <span class="keyword">from</span> <span class="string">&quot;@/pages/Login/Login&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Register</span> <span class="keyword">from</span> <span class="string">&quot;@/pages/Register/Register&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Search</span> <span class="keyword">from</span> <span class="string">&quot;@/pages/Search/Search&quot;</span>;</span><br><span class="line"><span class="comment">//配置路由</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">new</span> <span class="title class_">VueRouter</span>(&#123;</span><br><span class="line"> <span class="comment">//配置路由</span></span><br><span class="line"> <span class="attr">routes</span>:[</span><br><span class="line">     &#123;</span><br><span class="line">         <span class="attr">path</span>: <span class="string">&#x27;/home&#x27;</span>,</span><br><span class="line">         <span class="attr">component</span>: <span class="title class_">Home</span></span><br><span class="line">     &#125;,</span><br><span class="line">     &#123;</span><br><span class="line">         <span class="attr">path</span>: <span class="string">&#x27;/login&#x27;</span>,</span><br><span class="line">         <span class="attr">component</span>: <span class="title class_">Login</span></span><br><span class="line">     &#125;,</span><br><span class="line">     &#123;</span><br><span class="line">         <span class="attr">path</span>: <span class="string">&#x27;/register&#x27;</span>,</span><br><span class="line">         <span class="attr">component</span>: <span class="title class_">Register</span></span><br><span class="line">     &#125;,</span><br><span class="line">     &#123;</span><br><span class="line">         <span class="attr">path</span>: <span class="string">&#x27;/search&#x27;</span>,</span><br><span class="line">         <span class="attr">component</span>: <span class="title class_">Search</span></span><br><span class="line">     &#125;</span><br><span class="line"> ]</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>别忘了在<code>main.js</code>中引入和注册路由</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="title class_">Vue</span> <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="comment">//引入路由</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./router&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="title class_">Vue</span>.<span class="property">config</span>.<span class="property">productionTip</span> = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span><br><span class="line">   <span class="attr">render</span>: <span class="function"><span class="params">h</span> =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>),</span><br><span class="line">   <span class="comment">//注册路由</span></span><br><span class="line">   router</span><br><span class="line">&#125;).$mount(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>使用路由组件：在想展示的地方书写</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">router-view</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>声明式路由导航：<code>&lt;router-link to=&quot;/路径&quot;&gt;&lt;/router-link&gt;</code> 适合简单逻辑，没有数据</p>
-<p>编程式路由导航：<code>push</code>|<code>replace</code> 适合复杂逻辑，需要传递数据的</p>
-</blockquote>
-<h3 id="3-3、Footer组件的显示与隐藏"><a href="#3-3、Footer组件的显示与隐藏" class="headerlink" title="3.3、Footer组件的显示与隐藏"></a>3.3、Footer组件的显示与隐藏</h3><p>显示或隐藏使用<code>v-if</code> | <code>v-show</code></p>
-<blockquote>
-<p><code>v-show</code>更常用，因为其只是改变style属性，而<code>v-if</code>会操作dom元素。</p>
-</blockquote>
-<p>Footer组件：在Home、Search组件中显示</p>
-<p>Footer组件：在Login、Register组件中隐藏</p>
-<p>方法一：通过组件身上的<code>$route</code>来获取当前路由信息，通过路径来判断。不适用于多个组件。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Footer</span> <span class="attr">v-show</span>=<span class="string">&quot;$route.path === &#x27;/search&#x27; || $route.path === &#x27;/home&#x27; &quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">Footer</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>方法二：在<code>/router/index.js</code>中，给每个路由组件设置meta下的是否展示Footer组件信息，例如：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">path</span>: <span class="string">&#x27;/home&#x27;</span>,</span><br><span class="line">    <span class="attr">component</span>: <span class="title class_">Home</span>,</span><br><span class="line">    <span class="attr">meta</span>: &#123;</span><br><span class="line">        <span class="comment">//是否展示Footer组件</span></span><br><span class="line">        <span class="attr">isShowFooter</span>: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="4、路由传参"><a href="#4、路由传参" class="headerlink" title="4、路由传参"></a>4、路由传参</h2><p><code>params</code>：属于路径一部分，需要占位</p>
-<p><code>query</code>：不属于路径一部分，不需要占位</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*第一种传参方式：前一个时params，后一个是query*/</span><span class="variable language_">this</span>.<span class="property">$router</span>.<span class="title function_">push</span>(<span class="string">&#x27;/search/&#x27;</span> + <span class="variable language_">this</span>.<span class="property">keyWord</span> + <span class="string">&#x27;?k=&#x27;</span> + <span class="variable language_">this</span>.<span class="property">keyWord</span>.<span class="title function_">toUpperCase</span>())<span class="comment">/*第二种传参方式：模板字符串*/</span><span class="variable language_">this</span>.<span class="property">$router</span>.<span class="title function_">push</span>(<span class="string">`/search/<span class="subst">$&#123;<span class="variable language_">this</span>.keyWord&#125;</span>?k=<span class="subst">$&#123;<span class="variable language_">this</span>.keyWord.toUpperCase()&#125;</span>`</span>)<span class="comment">/*第二种传参方式：对象*/</span><span class="variable language_">this</span>.<span class="property">$router</span>.<span class="title function_">push</span>(&#123;  <span class="attr">name</span>: <span class="string">&#x27;search&#x27;</span>,  <span class="comment">//params传参需要指定跳转到的路由名称，不能用path！！！  params: &#123;    keyWord: this.keyWord  &#125;,  query: &#123;  //query传参指定path/name均可    keyWord: this.keyWord.toUpperCase()  &#125;&#125;)</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注意：</p>
-<ul>
-<li><p>params参数<strong>不能</strong>与path一起使用</p>
-</li>
-<li><p>如何指定params参数可传可不传？如果只传query参数，而配置中配置了params参数，则url路径会出现路由组件名称变成<code>?</code>的情况。</p>
-<p><img src="https://gitee.com/jxgitee/pictures2/raw/master/202112261357503.png" alt="image-20211226135700467"></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">index.<span class="property">js</span>中：<span class="title class_">Search</span>组件的配置 &#123;            <span class="attr">name</span>: <span class="string">&#x27;search&#x27;</span>,            <span class="attr">path</span>: <span class="string">&#x27;/search/:keyWord?&#x27;</span>, <span class="comment">//加上一个?，表示params参数可传不传            component: Search,            meta: &#123;                isShowFooter: true            &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>params参数传的是一个空串怎么办？</p>
-<p>使用<code>undefined</code>解决，url路径会出现路由组件名称不显示的情况</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">params</span>: &#123;	<span class="attr">keyWord</span>: <span class="string">&#x27;&#x27;</span> || <span class="literal">undefined</span>&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用props进行路由传参</p>
-</li>
-</ul>
-</blockquote>
-<h2 id="5、编程式路由导航多次点击会报错"><a href="#5、编程式路由导航多次点击会报错" class="headerlink" title="5、编程式路由导航多次点击会报错"></a>5、编程式路由导航多次点击会报错</h2><p><img src="https://gitee.com/jxgitee/pictures2/raw/master/202112261417962.png" alt="image-20211226141734908"></p>
-<p>因为最新的<code>vue-router</code>引入了<code>promise</code>传参。</p>
-<p>解决方法：</p>
-<ul>
-<li><p>通过给<code>push</code>方法传递相应的成功、失败的回调函数，可以捕获当前错误。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">this</span>.<span class="property">$router</span>.<span class="title function_">push</span>(&#123;    <span class="attr">name</span>: <span class="string">&#x27;search&#x27;</span>,    <span class="attr">params</span>: &#123;        <span class="attr">keyWord</span>: <span class="variable language_">this</span>.<span class="property">keyWord</span> || <span class="literal">undefined</span>    &#125;, <span class="function">(<span class="params">res</span>)=&gt;</span>&#123;        <span class="variable language_">console</span>.<span class="title function_">log</span>(res)    &#125;, <span class="function">(<span class="params">err</span>)=&gt;</span>&#123;        <span class="variable language_">console</span>.<span class="title function_">log</span>(err)    &#125;&#125;)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在<code>router/index.js</code>中书写</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// vue-router在3.0版本以上重复点菜单报错问题const originalPush = VueRouter.prototype.pushVueRouter.prototype.push = function push(location) &#123;    return originalPush.call(this, location).catch(err =&gt; err)&#125;// vue-router在3.0版本以上重复点菜单报错问题const originalReplace = VueRouter.prototype.replaceVueRouter.prototype.replace = function replace(location) &#123;    return originalReplace.call(this, location).catch(err =&gt; err)&#125;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="6、三级联动组件"><a href="#6、三级联动组件" class="headerlink" title="6、三级联动组件"></a>6、三级联动组件</h2><p>三级联动组件在Home、Search、Detail中都要使用，所有可把其拆分为全局组件。</p>
-<p>先在<code>home</code>文件夹下创建组件，然后再<code>main.js</code>中注册为全局组件：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//给TypeNav注册全局组件import TypeNav from &quot;@/pages/Home/TypeNav/TypeNav&quot;//注册全局组件 name: 组件Vue.component(&#x27;TypeNav&#x27;, TypeNav)</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="7、axios二次封装"><a href="#7、axios二次封装" class="headerlink" title="7、axios二次封装"></a>7、axios二次封装</h2><p>二次封装：</p>
-<ul>
-<li>请求拦截器：在发请求之前可以处理一些业务</li>
-<li>响应拦截器：在返回数据之后可以处理一些业务</li>
-</ul>
-<p><code>API</code>文件夹：axios配置<code>api/request.js</code></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//该文档用于axios二次封装import axios from &quot;axios&quot;//1.利用axios对象的方法create插件一个axios对象实例//2.requests其实就是axiosconst requests = axios.create(&#123;    //基础路径：发送请求时，路径中会出现api    baseURL: &#x27;/api&#x27;,    //超时事件    timeout: 5000&#125;)//请求拦截器requests.interceptors.request.use((config)=&gt;&#123;    //配置对象,在发送请求之前做些什么    return config&#125;, error =&gt; &#123;&#125;)//响应拦截器requests.interceptors.response.use((response)=&gt;&#123;    // 2xx 范围内的状态码都会触发该函数。    // 对响应数据做点什么    return response&#125;, error =&gt; &#123;&#125;)//暴露axiosexport default requests</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>axios参考文件：<a target="_blank" rel="noopener" href="https://www.axios-http.cn/">https://www.axios-http.cn/</a></p>
-<h2 id="8、api接口统一管理"><a href="#8、api接口统一管理" class="headerlink" title="8、api接口统一管理"></a>8、api接口统一管理</h2><p>项目很小时：直接在<code>mouted</code>生命周期钩子中进行请求。</p>
-<p>项目很大时：在<code>api</code>文件夹下创建<code>api/index.js</code>统一管理</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//该文档用于接口的统一管理import requests from &quot;@/api/request&quot;//三级分类请求：/api/product/getBaseCategoryList  getexport const reqCategoryList = () =&gt; requests(&#123;        //没有写api，因为在request.js中已经配置        url: &#x27;/product/getBaseCategoryList&#x27;,        method: &#x27;get&#x27;    &#125;)</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="8-1、跨域问题"><a href="#8-1、跨域问题" class="headerlink" title="8.1、跨域问题"></a>8.1、跨域问题</h3><p>协议、域名、端口号不同导致一台服务器不能访问另一台服务器</p>
-<p>在<code>vue.config.js</code>中配置代理：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;    <span class="comment">//解决跨域问题    devServer: &#123;        proxy: &#123;            &#x27;/api&#x27;: &#123; // 匹配所有以&#x27;/api&#x27;开头的请求路径                target: &#x27;http://39.98.123.211&#x27;, // 代理目标的基础路径                changeOrigin: true,  //用于控制请求头中的host值，即访问的来源地址，changeOrigin为true时会隐瞒其来源                ws: true, // 用于支持websocket            &#125;        &#125;    &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="9、nprogress进度条"><a href="#9、nprogress进度条" class="headerlink" title="9、nprogress进度条"></a>9、nprogress进度条</h2><p>安装：<code>npm install --save nprogress</code></p>
-<p><a target="_blank" rel="noopener" href="https://madewith.cn/23">nprogress的简介及使用教程 - Made with Vuejs</a></p>
-<p>开始时，在api&#x2F;request.js的请求拦截器中配置：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//进度条开始动NProgress.start()NProgress.set(0.0);     // Sorta same as .start()NProgress.set(0.4);NProgress.set(1.0);     // Sorta same as .done()</span></span><br></pre></td></tr></table></figure>
-
-<p>结束时，在响应拦截器中使用：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//进度条结束NProgress.done()</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="10、vuex"><a href="#10、vuex" class="headerlink" title="10、vuex"></a>10、vuex</h2><p>Vue中实现集中式状态（数据）管理的一个Vue插件。</p>
-<blockquote>
-<p>项目小：完全不需要。</p>
-<p>数据多，项目大，数据维护费劲：使用vuex。</p>
-</blockquote>
-<p>创建<code>store/index.js</code>：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引入Vue核心库import Vue from &#x27;vue&#x27;//引入Vueximport Vuex from &#x27;vuex&#x27;//应用Vuex插件Vue.use(Vuex)//准备actions对象——响应组件中用户的动作const actions = &#123;&#125;//准备mutations对象——修改state中的数据的唯一手段const mutations = &#123;&#125;//准备state对象——保存具体的数据const state = &#123;&#125;//准备getters对象const getters = &#123;&#125;//对外暴露store类的一个实例对象export default new Vuex.Store(&#123;    actions,    mutations,    state,    getters&#125;)</span></span><br></pre></td></tr></table></figure>
-
-<img src="https://gitee.com/jxgitee/pictures/raw/master/img/202202111129858.png" alt="vuex" style="zoom: 25%;" />
-
-
-
-<h2 id="11、动态展示三级联动数据"><a href="#11、动态展示三级联动数据" class="headerlink" title="11、动态展示三级联动数据"></a>11、动态展示三级联动数据</h2><p>首先为home单独创建一个vuex小仓库：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//准备actions对象——响应组件中用户的动作import &#123;reqCategoryList&#125; from &quot;@/api&quot;const actions = &#123;    async categoryList(context) &#123;        //获取promise对象的值        let result = await reqCategoryList()        if (result.status === 200) &#123;            context.commit(&#x27;CATEGORYLIST&#x27;, result.data)        &#125;    &#125;&#125;//准备mutations对象——修改state中的数据的唯一手段const mutations = &#123;    CATEGORYLIST(state, value) &#123;        state.categoryList = value.data    &#125;&#125;//准备state对象——保存具体的数据const state = &#123;    //服务器返回数据，就定义为数组    categoryList: []&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>在<code>TypeNav.vue</code>中：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;  <span class="comment">//从服务器获取数据  this.$store.dispatch(&#x27;categoryList&#x27;)&#125;,computed: &#123;  ...mapState(&#123;    //右侧为一个函数，当使用这个属性时，函数会立即执行一次    //state为大仓库中的数据    categoryList: state =&gt; state.home.categoryList.filter((category)=&gt;&#123;      return category.categoryId &lt;= 15    &#125;)  &#125;)&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>之后用<code>v-for</code>逐级遍历。通过<code>:class</code>和<code>:style</code>来控制样式。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sort&quot;</span>&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;all-sort-list2&quot;</span>&gt;</span>    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span> <span class="attr">v-for</span>=<span class="string">&quot;(c1, index) in categoryList&quot;</span> <span class="attr">:key</span>=<span class="string">&quot;c1.categoryId&quot;</span> <span class="attr">:class</span>=<span class="string">&quot;&#123;currentClass: currentIndex === index&#125;&quot;</span>&gt;</span>      <span class="tag">&lt;<span class="name">h3</span> @<span class="attr">mouseenter</span>=<span class="string">&quot;changeIndex(index)&quot;</span>&gt;</span>        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>&#123;&#123; c1.categoryName &#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span>      <span class="tag">&lt;/<span class="name">h3</span>&gt;</span>      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item-list clearfix&quot;</span> <span class="attr">:style</span>=<span class="string">&quot;&#123;display: currentIndex === index ? &#x27;block&#x27; : &#x27;none&#x27;&#125;&quot;</span>&gt;</span>        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;subitem&quot;</span>&gt;</span>          <span class="tag">&lt;<span class="name">dl</span> <span class="attr">class</span>=<span class="string">&quot;fore&quot;</span> <span class="attr">v-for</span>=<span class="string">&quot;c2 in c1.categoryChild&quot;</span> <span class="attr">:key</span>=<span class="string">&quot;c2.categoryId&quot;</span>&gt;</span>            <span class="tag">&lt;<span class="name">dt</span>&gt;</span>              <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>&#123;&#123; c2.categoryName &#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span>            <span class="tag">&lt;/<span class="name">dt</span>&gt;</span>            <span class="tag">&lt;<span class="name">dd</span>&gt;</span>              <span class="tag">&lt;<span class="name">em</span> <span class="attr">v-for</span>=<span class="string">&quot;c3 in c2.categoryChild&quot;</span> <span class="attr">:key</span>=<span class="string">&quot;c3.categoryId&quot;</span>&gt;</span>                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>&#123;&#123; c3.categoryName &#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span>              <span class="tag">&lt;/<span class="name">em</span>&gt;</span>            <span class="tag">&lt;/<span class="name">dd</span>&gt;</span>          <span class="tag">&lt;/<span class="name">dl</span>&gt;</span>        <span class="tag">&lt;/<span class="name">div</span>&gt;</span>      <span class="tag">&lt;/<span class="name">div</span>&gt;</span>    <span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="12、卡顿、节流与防抖"><a href="#12、卡顿、节流与防抖" class="headerlink" title="12、卡顿、节流与防抖"></a>12、卡顿、节流与防抖</h2><p><strong>正常</strong>：事件触发非常频繁，而且每一次的出发，回调函数都要去执行（如果事件很短，而回调函数内部有计算，那么可能会出现浏览器<strong>卡顿</strong>现象）</p>
-<p><strong>节流</strong>：在<strong>规定的间隔时间</strong>范围内不会重复出发事件回调，只有大于这个时间才会触发回调，把频繁触发变成少量触发。<strong>用户操作很频繁，但是却把操作变成少量操作。</strong></p>
-<blockquote>
-<p>比如轮播图点击太快时会出现混乱，那么就可以设置节流，使得2秒内只会触发一次事件。</p>
-</blockquote>
-<p>使用<code>lodash</code>库，<a target="_blank" rel="noopener" href="https://www.lodashjs.com/docs/lodash.throttle">lodash.throttle | Lodash 中文文档 | Lodash 中文网 (lodashjs.com)</a></p>
-<p><strong>防抖</strong>：前面的所有的触发都被取消，最后一次执行在规定时间之后才会触发，也就是说如果连续快速的触发，<strong>只会执行一次</strong>。<strong>用户操作很频繁，却只会执行一次。</strong></p>
-<blockquote>
-<p>比如有一个输入框，你需要在里面输入文字，每输入一个文件，就会自动发送一个ajax请求，这会造成大量的计算资源损失。而使用防抖后，只有在最后一次输入之后才会触发，也就是<strong>只会执行一次</strong>。</p>
-</blockquote>
-<p>使用<code>lodash</code>库，<a target="_blank" rel="noopener" href="https://www.lodashjs.com/docs/lodash.debounce">lodash.debounce | Lodash 中文文档 | Lodash 中文网 (lodashjs.com)</a></p>
-<h3 id="12-1、TypeNav做防抖"><a href="#12-1、TypeNav做防抖" class="headerlink" title="12.1、TypeNav做防抖"></a>12.1、TypeNav做防抖</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//按需引入lodashimport throttle from &#x27;lodash/throttle&#x27;/*做防抖：别用箭头函数*/changeIndex: throttle(function (index)&#123;  this.currentIndex = index&#125;, 50)</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="13、三级联动路由跳转"><a href="#13、三级联动路由跳转" class="headerlink" title="13、三级联动路由跳转"></a>13、三级联动路由跳转</h2><p>用户可以点击1、2、3级路由导航，点击时，会从Home跳转到Search，且会把用户选择产品的名字和id进行传递。</p>
-<p>如果使用声明式路由导航<code>router-link</code>，虽然可以实现，但是会出现卡顿，所以不采用。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">router-link</span> <span class="attr">:to</span>=<span class="string">&quot;&#123;name: &#x27;search&#x27;,    params: &#123;      categoryName: c3.categoryName,      category3Id: c3.category3Id    &#125;&#125;&quot;</span>&gt;</span>&#123;&#123; c3.categoryName &#125;&#125;<span class="tag">&lt;/<span class="name">router-link</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>故使用编程式路由导航。</p>
-<p>将点击事件绑定到父级标签：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;all-sort-list2&quot;</span> @<span class="attr">click</span>=<span class="string">&quot;goSearch&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>问题：均加上<strong>自定义属性</strong>，vue会将它们解析，例如：<code>:data-categoryName</code>解析为<code>categoryname</code></p>
-<ul>
-<li>事件委派：如何确定点击的一定是a标签<ul>
-<li>给a标签加上<code>:data-categoryName</code></li>
-</ul>
-</li>
-<li>点击a标签后，如何区分1、2、3级标签<ul>
-<li>给a标签加上<code> :data-category1Id</code>、<code> :data-category2Id</code>、<code> :data-category3Id</code></li>
-</ul>
-</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a :data-categoryName=<span class="string">&quot;c1.categoryName&quot;</span> :data-category1Id=<span class="string">&quot;c1.categoryId&quot;</span>&gt;&#123;&#123; c1.<span class="property">categoryName</span> &#125;&#125;&lt;<span class="regexp">/a&gt;goSearch(event) &#123;  let &#123;categoryname, category1id, category2id, category3id&#125; = event.target.dataset  let location = &#123;name: &#x27;search&#x27;&#125;  let query = &#123;categoryName: categoryname&#125;  if(categoryname) &#123; /</span><span class="regexp">/只有结构后categoryname不为undefined，其余同理      if(category1id) &#123;        query.category1Id = category1id      &#125; else if(category2id) &#123;        query.category2Id = category2id      &#125; else &#123;        query.category3Id = category3id      &#125;  &#125;</span></span><br></pre></td></tr></table></figure>
-
-<p><code>event.target.dataset</code></p>
-<p><img src="https://gitee.com/jxgitee/pictures/raw/master/img/202202111129743.png" alt="image-20211228223247110"></p>
-<p>路由传递参数时为什么不用<code>params</code>？</p>
-<p>因为<code>params</code>传递参数时首先要在配置中配置需要传递的参数名，而该案例中参数名是不定的。</p>
-<h2 id="14、Search模块分类和动画"><a href="#14、Search模块分类和动画" class="headerlink" title="14、Search模块分类和动画"></a>14、Search模块分类和动画</h2><p>在Search模块中，TypeNav只有在鼠标移入时显示，移出时消失。</p>
-<p>给标签加上判断：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;sort&quot;</span> <span class="attr">v-show</span>=<span class="string">&quot;isShowSort&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;  <span class="comment">//获取当前路由路径并进行判断  if(this.$route.path !== &#x27;/home&#x27;) &#123;    this.isShowSort = false  &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>给父类绑定鼠标移入移出事件：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span> @<span class="attr">mouseleave</span>=<span class="string">&quot;mouseLeave&quot;</span> @<span class="attr">mouseenter</span>=<span class="string">&quot;showEnter&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>需要进行条件判断：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">showEnter</span>(<span class="params"></span>) &#123;  <span class="keyword">if</span>(<span class="variable language_">this</span>.<span class="property">$route</span>.<span class="property">path</span> === <span class="string">&#x27;/search&#x27;</span>) &#123;    <span class="variable language_">this</span>.<span class="property">isShowSort</span> = <span class="literal">true</span>  &#125;&#125;,<span class="title function_">mouseLeave</span>(<span class="params"></span>) &#123;  <span class="keyword">if</span>(<span class="variable language_">this</span>.<span class="property">$route</span>.<span class="property">path</span> === <span class="string">&#x27;/search&#x27;</span>) &#123;    <span class="variable language_">this</span>.<span class="property">isShowSort</span> = <span class="literal">false</span>  &#125;&#125;</span><br></pre></td></tr></table></figure>
-
-<p>如何判断当前路由是什么？<code>this.$route.path</code></p>
-<p>过渡动画采用<code>transtion</code>，注意：只有标签中含有<code>v-if</code>或<code>v-show</code>才能使用。</p>
-<h2 id="15、商品分类三级列表发送请求优化"><a href="#15、商品分类三级列表发送请求优化" class="headerlink" title="15、商品分类三级列表发送请求优化"></a>15、商品分类三级列表发送请求优化</h2><p>该请求只需要发送一次即可，所以需要找到一个只加载一次的地方。</p>
-<p>在<code>App.vue</code>中：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;  <span class="comment">//调用action，只执行一次  this.$store.dispatch(&#x27;categoryList&#x27;)&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="16、合并query和params参数"><a href="#16、合并query和params参数" class="headerlink" title="16、合并query和params参数"></a>16、合并query和params参数</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable language_">this</span>.<span class="property">$route</span>.<span class="property">query</span>) &#123;	location.<span class="property">query</span> = <span class="variable language_">this</span>.<span class="property">$route</span>.<span class="property">query</span>&#125;<span class="comment">//如果带有params参数也要传过去if(this.$route.params) &#123;  location.params = this.$route.params&#125;this.$router.push(location)</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="17、mockjs随机模拟数据"><a href="#17、mockjs随机模拟数据" class="headerlink" title="17、mockjs随机模拟数据"></a>17、mockjs随机模拟数据</h2><p>使用文档：<a target="_blank" rel="noopener" href="https://github.com/nuysoft/Mock/wiki">Home · nuysoft&#x2F;Mock Wiki · GitHub</a></p>
-<p>安装mock：<code>npm install mockjs</code></p>
-<p>使用步骤：</p>
-<ul>
-<li>在<code>src</code>目录下创建<code>mock</code>文件夹</li>
-<li>把准备好的静态json数据放入对应的json文件中—注意进行格式化，不能留有空格</li>
-<li>将需要的数据资源文件放入<code>public</code>文件夹中【打包时会原封不动被打包到dist文件夹】</li>
-<li>创建<code>mockServer.js</code>实现模拟</li>
-<li>在入口文件中引入<code>mockServer.js</code>，因为其至少需要执行一次来模拟数据</li>
-</ul>
-<p><code>mockServer.js</code>：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="title class_">Mock</span> <span class="keyword">from</span> <span class="string">&#x27;mockjs&#x27;</span><span class="comment">//引入json数据import banner from &#x27;./banner.json&#x27;import floor from &#x27;./floor.json&#x27;//第一个参数：请求地址，第二个参数：请求数据Mock.mock(&#x27;/mock/banner&#x27;, &#123;code: 200, data: banner&#125;)Mock.mock(&#x27;/mock/floor&#x27;, &#123;code: 200, data: floor&#125;)</span></span><br></pre></td></tr></table></figure>
-
-<p><code>main.js</code>：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引入mock，模拟数据import &#x27;@/mock/mockServer&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>在api文件夹中创建<code>mockRequest.js</code>，改变路径：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> requests = axios.<span class="title function_">create</span>(&#123;    <span class="comment">//基础路径：发送请求时，路径中会出现api    baseURL: &#x27;/mock&#x27;,    //超时事件    timeout: 5000&#125;)</span></span><br></pre></td></tr></table></figure>
-
-<p>在<code>api/index.js</code>中暴露接口：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> <span class="title function_">reqBannerList</span> = (<span class="params"></span>) =&gt; <span class="title function_">mockRequests</span>(&#123;    <span class="attr">url</span>: <span class="string">&#x27;/banner&#x27;</span>,    <span class="attr">method</span>: <span class="string">&#x27;get&#x27;</span>&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>在组件中发送请求：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;  <span class="comment">//发送请求  this.$store.dispatch(&#x27;banner/bannerList&#x27;)&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>在store下创建banner模块：【就是常规vuex配置，采用了命名空间】</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/。。。<span class="keyword">const</span> actions = &#123;    <span class="keyword">async</span> <span class="title function_">bannerList</span>(<span class="params">context</span>) &#123;        <span class="keyword">let</span> result = <span class="keyword">await</span> <span class="title function_">reqBannerList</span>()        <span class="keyword">if</span>(result.<span class="property">status</span> === <span class="number">200</span>) &#123;            context.<span class="title function_">commit</span>(<span class="string">&#x27;BANNERLIST&#x27;</span>, result.<span class="property">data</span>)        &#125;    &#125;&#125;/。。。</span><br></pre></td></tr></table></figure>
-
-<p>最后在ListContainer中获取list并遍历展示：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">computed</span>: &#123;  ...<span class="title function_">mapState</span>(<span class="string">&#x27;banner&#x27;</span>, [<span class="string">&#x27;bannerList&#x27;</span>])&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="18、Swiper"><a href="#18、Swiper" class="headerlink" title="18、Swiper"></a>18、Swiper</h2><p>安装：<code>npm install swiper --save</code></p>
-<p>官方文档：<a target="_blank" rel="noopener" href="https://swiper.com.cn/">Swiper中文网-轮播图幻灯片js插件,H5页面前端开发</a></p>
-<p>使用实例：<a target="_blank" rel="noopener" href="https://blog.csdn.net/lynnpaul/article/details/116643639">https://blog.csdn.net/lynnpaul/article/details/116643639</a></p>
-<p>1、引包</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//可全局引入样式import &#x27;swiper/js/swiper.min&#x27;import &#x27;swiper/css/swiper.min.css&#x27;//引入Swiperimport Swiper from &#x27;swiper&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>2、结构：必须要先有结构Swiper才能生效</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;swiper-container&quot;</span>&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;swiper-wrapper&quot;</span>&gt;</span>    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;swiper-slide&quot;</span> <span class="attr">v-for</span>=<span class="string">&quot;carousal in bannerList&quot;</span> <span class="attr">:key</span>=<span class="string">&quot;carousal.id&quot;</span>&gt;</span>      <span class="tag">&lt;<span class="name">img</span> <span class="attr">:src</span>=<span class="string">&quot;carousal.imgUrl&quot;</span>/&gt;</span>    <span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="comment">&lt;!-- 如果需要分页器 --&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;swiper-pagination&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="comment">&lt;!-- 如果需要导航按钮 --&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;swiper-button-prev&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;swiper-button-next&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>3、<code>new Swiper()</code>【在<code>mouted</code>中？】：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;    <span class="comment">//由于dispatch还没有更新完毕就执行下面语句，所以需要滞后加载【解决方案一】    var mySwiper = new Swiper(&#x27;.swiper-container&#x27;, &#123;        loop: true, // 循环模式选项        // 如果需要分页器        pagination: &#123;            el: &#x27;.swiper-pagination&#x27;,            clickable: true        &#125;,        // 如果需要前进后退按钮        navigation: &#123;            nextEl: &#x27;.swiper-button-next&#x27;,            prevEl: &#x27;.swiper-button-prev&#x27;,        &#125;,        /其他配置/    &#125;)&#125;, 1000)</span></span><br></pre></td></tr></table></figure>
-
-<p>4、使用<code>$nextTick</code></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">watch</span>: &#123;  <span class="attr">bannerList</span>: &#123;    <span class="comment">//当bannerList值改变时调用    handler() &#123;      //数据已经有了，但无法保证v-for遍历已经结束      //在下次dom更新循环结束之后执行延迟回调      //在修改数据之后立即执行这个方法，获取更新后的dom      this.$nextTick(()=&gt;&#123;        new Swiper(&#x27;.swiper-container&#x27;, &#123;          loop: true, // 循环模式选项          // 如果需要分页器          pagination: &#123;            el: &#x27;.swiper-pagination&#x27;,            clickable: true          &#125;,          // 如果需要前进后退按钮          navigation: &#123;            nextEl: &#x27;.swiper-button-next&#x27;,            prevEl: &#x27;.swiper-button-prev&#x27;,          &#125;,        &#125;)      &#125;)    &#125;  &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="18-1、注册通用的Carousel全局组件"><a href="#18-1、注册通用的Carousel全局组件" class="headerlink" title="18.1、注册通用的Carousel全局组件"></a>18.1、注册通用的<code>Carousel</code>全局组件</h3><p><code>Carousel.vue</code></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;  &lt;div class=&quot;swiper-container&quot; ref=&quot;swiper&quot;&gt;    &lt;div class=&quot;swiper-wrapper&quot;&gt;      &lt;div class=&quot;swiper-slide&quot; v-for=&quot;item in list&quot; :key=&quot;item.id&quot;&gt;        &lt;img :src=&quot;item.imgUrl&quot;/&gt;      &lt;/div&gt;    &lt;/div&gt;    &lt;!-- 如果需要分页器 --&gt;    &lt;div class=&quot;swiper-pagination&quot;&gt;&lt;/div&gt;    &lt;!-- 如果需要导航按钮 --&gt;    &lt;div class=&quot;swiper-button-prev&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;swiper-button-next&quot;&gt;&lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;import Swiper from &#x27;swiper&#x27;export default &#123;  name: &quot;Carousel&quot;,  props: [&#x27;list&#x27;],  watch: &#123;    list: &#123;      immediate: true,      handler() &#123;        this.$nextTick(()=&gt;&#123;          new Swiper(this.$refs.swiper, &#123;            loop: true, // 循环模式选项            // 如果需要分页器            pagination: &#123;              el: &#x27;.swiper-pagination&#x27;,              clickable: true            &#125;,            // 如果需要前进后退按钮            navigation: &#123;              nextEl: &#x27;.swiper-button-next&#x27;,              prevEl: &#x27;.swiper-button-prev&#x27;,            &#125;,          &#125;)        &#125;)      &#125;    &#125;  &#125;&#125;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<p>在<code>main.js</code>中注册全局：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//注册轮播图全局组件Carouselimport Carousel from &quot;@/components/Carousel/Carousel&quot;Vue.component(&#x27;Carousel&#x27;, Carousel)//引入轮播图样式import &#x27;swiper/js/swiper.min&#x27;import &#x27;swiper/css/swiper.min.css&#x27;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="19、Search组件"><a href="#19、Search组件" class="headerlink" title="19、Search组件"></a>19、Search组件</h2><h3 id="19-1、拆分组件"><a href="#19-1、拆分组件" class="headerlink" title="19.1、拆分组件"></a>19.1、拆分组件</h3><p>Search组件+SearchSelector组件</p>
-<h3 id="19-2、请求数据"><a href="#19-2、请求数据" class="headerlink" title="19.2、请求数据"></a>19.2、请求数据</h3><p>在<code>api/index.js</code>中：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//请求Search组件的数据，参数可有可无，但必须是一个空对象export const reqList = (params) =&gt; requests(&#123;    url: &#x27;/list&#x27;,    method: &#x27;post&#x27;,    data: params&#125;)</span></span><br></pre></td></tr></table></figure>
-
-<p>vuex省略…</p>
-<h3 id="19-3、展示数据"><a href="#19-3、展示数据" class="headerlink" title="19.3、展示数据"></a>19.3、展示数据</h3><p>需要传递的参数：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">data</span>(<span class="params"></span>) &#123;  <span class="keyword">return</span> &#123;    <span class="attr">searchParams</span>: &#123;      <span class="comment">//一级id      category1Id: &quot;&quot;,      //二级id      category2Id: &quot;&quot;,      //三级id      category3Id: &quot;&quot;,      //分类名称      categoryName: &quot;&quot;,      //搜索关键字      keyWord: &quot;&quot;,      //排序      order: &quot;&quot;,      //页码      pageNo: 1,      //页面商品个数      pageSize: 10,      //平台售卖属性的参数      props: [],      //品牌名称      trademark: &quot;&quot;    &#125;  &#125;&#125;,</span></span><br></pre></td></tr></table></figure>
-
-<p>在Search组件挂载之前需要对从Home组件传递过来的参数进行处理：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在组件挂载之前获取从home跳转到search的传参beforeMount() &#123;  //Object.assign：ES6语法，将query和params中的参数值传递给searchParams赋值  this.changeDataWhen$routeChange()&#125;,</span></span><br></pre></td></tr></table></figure>
-
-<p>在Search组件挂载完毕时就要请求数据：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;    <span class="comment">//挂载完毕时给服务器传参请求数据    this.getData()&#125;,</span></span><br></pre></td></tr></table></figure>
-
-<p><code>methods</code>：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">methods</span>: &#123;    <span class="title function_">getData</span>(<span class="params"></span>) &#123;        <span class="variable language_">this</span>.<span class="property">$store</span>.<span class="title function_">dispatch</span>(<span class="string">&#x27;search/getSearchInfo&#x27;</span>, <span class="variable language_">this</span>.<span class="property">searchParams</span>)    &#125;,    <span class="title function_">changeDataWhen$routeChange</span>() &#123;        <span class="title class_">Object</span>.<span class="title function_">assign</span>(<span class="variable language_">this</span>.<span class="property">searchParams</span>, <span class="variable language_">this</span>.<span class="property">$route</span>.<span class="property">query</span>, <span class="variable language_">this</span>.<span class="property">$route</span>.<span class="property">params</span>)    &#125;&#125;</span><br></pre></td></tr></table></figure>
-
-<p>监视路由的变化，当已经跳转到Search组件时，可以解决此时重新搜索和跳转但是数据并未变化的问题：[因为参数变化是在路由信息<code>($route</code>)中体现的]</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">watch</span>: &#123;  <span class="comment">//监听路由的变化，当路由变化--query或params变化时重新从服务器获取数据  $route() &#123;    this.changeDataWhen$routeChange()    this.getData()    console.log(this.searchParams)  &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>删除面包屑，重新进行数据获取：</p>
-<p><strong>重点</strong>：将参数 <code>this.searchParams.categoryName = undefined</code>设置为undefined，这样在请求参数的时候就不会带上；然后带上剩余参数进行重新跳转。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">delCategoryName</span>(<span class="params"></span>) &#123;  <span class="comment">//设置为undefined是为了再次请求的时候不会被作为参数传递给服务器  this.searchParams.categoryName = undefined  this.searchParams.category1Id = undefined  this.searchParams.category2Id = undefined  this.searchParams.category3Id = undefined  //保留params参数，删除query参数，重新进行路由跳转————自己跳到自己  if (this.$route.params) &#123;    this.$router.push(&#123;name: &#x27;search&#x27;, params: this.$route.params&#125;)  &#125;&#125;,</span></span><br></pre></td></tr></table></figure>
-
-<p>利用自定义事件实现子父之间通信：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--selector父z中--&gt;<span class="language-xml"><span class="tag">&lt;<span class="name">SearchSelector</span> @<span class="attr">trademark</span>=<span class="string">&quot;trademarkInfo&quot;</span>/&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<p>子组件中：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">methods</span>: &#123;  <span class="title function_">trademark</span>(<span class="params">item</span>) &#123;      <span class="comment">//开启自定义事件并命名    this.$emit(&#x27;trademark&#x27;, item.tmName)  &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="19-4、分页器"><a href="#19-4、分页器" class="headerlink" title="19.4、分页器"></a>19.4、分页器</h3><p>父组件传参：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--   分页       --&gt;</span><span class="tag">&lt;<span class="name">Pagination</span> <span class="attr">:pageNo</span>=<span class="string">&quot;pageNo&quot;</span> <span class="attr">:pageSize</span>=<span class="string">&quot;pageSize&quot;</span> <span class="attr">:total</span>=<span class="string">&quot;total&quot;</span> <span class="attr">:continues</span>=<span class="string">&quot;5&quot;</span> @<span class="attr">changePageNo</span>=<span class="string">&quot;changePageNo&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">Pagination</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>创建全局组件：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;  &lt;div class=&quot;fr page&quot;&gt;    &lt;div class=&quot;sui-pagination clearfix&quot;&gt;      &lt;ul&gt;        &lt;li class=&quot;prev&quot;&gt;          &lt;a @click=&quot;changePageNo(pageNo - 1)&quot;&gt;«上一页&lt;/a&gt;        &lt;/li&gt;        &lt;!--   利用v-for遍历数字     --&gt;        &lt;li :class=&quot;&#123;active: pageNo === page&#125;&quot; v-for=&quot;(page, index) of start$end.end&quot; :key=&quot;index&quot;&gt;          &lt;a v-if=&quot;page &gt;= start$end.start&quot; @click=&quot;changePageNo(page)&quot;&gt;&#123;&#123; page &#125;&#125;&lt;/a&gt;        &lt;/li&gt;        &lt;li class=&quot;next&quot;&gt;          &lt;a @click=&quot;changePageNo(pageNo + 1)&quot;&gt;下一页»&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;      &lt;div&gt;&lt;span&gt;共&#123;&#123; totalPages &#125;&#125;页&amp;nbsp;&lt;/span&gt;&lt;/div&gt;      &lt;div&gt;&lt;span&gt;共&#123;&#123; total &#125;&#125;条&lt;/span&gt;&lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/template&gt;&lt;script&gt;export default &#123;  name: &quot;Pagination&quot;,  props: [&#x27;pageNo&#x27;, &#x27;pageSize&#x27;, &#x27;total&#x27;, &#x27;continues&#x27;],  computed: &#123;    totalPages() &#123;      //计算出总页面数      return Math.ceil(this.total / this.pageSize)    &#125;,    //该显示的页码    start$end() &#123;      //定义起始和结束的页面      let start = 0, end = 0;      //如果连续的页面大于总的页面数      if (this.continues &gt; this.totalPages) &#123;        start = 1;        end = this.totalPages;      &#125; else &#123;        //正常现象        if (this.continues % 2 === 0) &#123;          //展示偶数页          start = this.pageNo - this.continues / 2          end = this.pageNo + this.continues / 2 - 1;        &#125; else &#123;          //展示奇数页          start = this.pageNo - Math.floor(this.continues / 2)          end = this.pageNo + Math.floor(this.continues / 2);          //如果是1~continues - continues/2 - 1页        &#125;        if (start &lt;= 0) &#123;          start = 1;          end = this.continues        &#125;        if (end &gt; this.totalPages) &#123;          start = this.totalPages - this.continues + 1          end = this.totalPages        &#125;      &#125;      return &#123;start, end&#125;    &#125;  &#125;,  methods: &#123;    //利用全局事件总线给父组件页码数，并更新数据    changePageNo(pageNo) &#123;      if (pageNo &lt; 1 || pageNo &gt; this.totalPages) &#123;        return      &#125;      this.$emit(&#x27;changePageNo&#x27;, pageNo)    &#125;  &#125;&#125;&lt;/script&gt;&lt;style lang=&quot;less&quot;&gt;.page &#123;  width: 733px;  height: 66px;  overflow: hidden;  float: right;  .sui-pagination &#123;    margin: 18px 0;    ul &#123;      margin-left: 0;      margin-bottom: 0;      vertical-align: middle;      width: 490px;      float: left;      li &#123;        line-height: 18px;        display: inline-block;        a &#123;          position: relative;          float: left;          line-height: 18px;          text-decoration: none;          background-color: #fff;          border: 1px solid #e0e9ee;          margin-left: -1px;          font-size: 14px;          padding: 9px 18px;          color: #333;        &#125;        &amp;.active &#123;          a &#123;            background-color: #fff;            color: #e1251b;            border-color: #fff;            cursor: default;          &#125;        &#125;        &amp;.prev &#123;          a &#123;            background-color: #fafafa;          &#125;        &#125;        &amp;.disabled &#123;          a &#123;            color: #999;            cursor: default;          &#125;        &#125;        &amp;.dotted &#123;          span &#123;            margin-left: -1px;            position: relative;            float: left;            line-height: 18px;            text-decoration: none;            background-color: #fff;            font-size: 14px;            border: 0;            padding: 9px 18px;            color: #333;          &#125;        &#125;        &amp;.next &#123;          a &#123;            background-color: #fafafa;          &#125;        &#125;      &#125;    &#125;    div &#123;      color: #333;      font-size: 14px;      float: right;      width: 241px;    &#125;  &#125;&#125;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-<h2 id="20、Detail组件"><a href="#20、Detail组件" class="headerlink" title="20、Detail组件"></a>20、Detail组件</h2><p><code>vuex</code>中，</p>
-<p><code>getters</code>中的数据至少应为一个对象，否则会报错!!</p>
-<p>如果为<code>undefined</code>，就赋值为默认的值：<code>‘’</code>，<code>&#123;&#125;</code>，<code>[]</code></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> getters = &#123;    <span class="title function_">categoryView</span>(<span class="params"></span>) &#123;        <span class="comment">//当前计算出来的属性值至少需要赋默认值，不应为undefined        return state.details.categoryView || &#123;&#125;    &#125;,    skuInfo() &#123;        return state.details.skuInfo || &#123;&#125;    &#125;,    spuSaleAttrList() &#123;        return state.details.spuSaleAttrList || &#123;&#125;    &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="20-1、排他"><a href="#20-1、排他" class="headerlink" title="20.1、排他"></a>20.1、排他</h3><p>获取数组中单个对象的值和整个数组的值：</p>
-<p><img src="https://gitee.com/jxgitee/pictures2/raw/master/image-20220112132539574.png" alt="image-20220112132539574"></p>
-<p>例如：然后改变该对象的属性为1，其余对象的属性为0.</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">changeChose</span>(<span class="params">AttrValue, AttrValueArr</span>) &#123;  <span class="title class_">AttrValueArr</span>.<span class="title function_">forEach</span>(<span class="function"><span class="params">item</span>=&gt;</span>&#123;    item.<span class="property">isChecked</span> = <span class="string">&#x27;0&#x27;</span>  &#125;)  <span class="title class_">AttrValue</span>.<span class="property">isChecked</span> = <span class="string">&#x27;1&#x27;</span>&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="20-2、放大镜"><a href="#20-2、放大镜" class="headerlink" title="20.2、放大镜"></a>20.2、放大镜</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;spec-preview&quot;</span>&gt;</span>  <span class="tag">&lt;<span class="name">img</span> <span class="attr">:src</span>=<span class="string">&quot;image.imgUrl&quot;</span>/&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;event&quot;</span> @<span class="attr">mousemove</span>=<span class="string">&quot;handler&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;big&quot;</span>&gt;</span>    <span class="tag">&lt;<span class="name">img</span> <span class="attr">:src</span>=<span class="string">&quot;image.imgUrl&quot;</span> <span class="attr">ref</span>=<span class="string">&quot;big&quot;</span>/&gt;</span>  <span class="tag">&lt;/<span class="name">div</span>&gt;</span>  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mask&quot;</span> <span class="attr">ref</span>=<span class="string">&quot;mask&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>绑定鼠标移动事件，然后修改对应的style的属性值：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">handler</span>(<span class="params"></span>) &#123;  <span class="comment">//随着鼠标的移动改变蒙版的位置  let mask = this.$refs.mask  let big = this.$refs.big  let left = event.offsetX - mask.offsetWidth / 2  let top = event.offsetY - mask.offsetHeight / 2  //约束范围  if (left &lt; 0) left = 0  if (left &gt; mask.offsetWidth) left = mask.offsetWidth  if (top &lt; 0) top = 0  if (top &gt; mask.offsetHeight) top = mask.offsetHeight  //改变值  mask.style.left = left + &#x27;px&#x27;  mask.style.top = top + &#x27;px&#x27;  big.style.left = -2 * left + &#x27;px&#x27;  big.style.top = -2 * top + &#x27;px&#x27;&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-<h3 id="20-3、购物车数字"><a href="#20-3、购物车数字" class="headerlink" title="20.3、购物车数字"></a>20.3、购物车数字</h3><img src="https://gitee.com/jxgitee/pictures/raw/master/img/202202111129197.png" alt="image-20220113135315726" style="zoom:50%;" />
-
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">type</span>=<span class="string">&quot;number&quot;</span> <span class="attr">class</span>=<span class="string">&quot;itxt&quot;</span>        <span class="attr">v-model</span>=<span class="string">&quot;skuNum&quot;</span>        @<span class="attr">change</span>=<span class="string">&quot;changeSkuNum&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>绑定<strong>改变事件</strong>：[排除其他非法字符、负数和小数]</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">changeSkuNum</span>(<span class="params"></span>) &#123;  <span class="keyword">let</span> value = event.<span class="property">target</span>.<span class="property">value</span> * <span class="number">1</span>  <span class="comment">//排除其他非法字符和负数  if(isNaN(value) || value &lt;= 0) &#123;    this.skuNum = 1  &#125; else &#123;    //排除小数    this.skuNum = parseInt(this.skuNum)  &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="20-4、跳转购物车"><a href="#20-4、跳转购物车" class="headerlink" title="20.4、跳转购物车"></a>20.4、跳转购物车</h3><p>本地存储：<code>localStorage</code>，持久化存储，数据最多5M。</p>
-<p>会话存储：<code>sessionStorage</code>，会话结束数据就会消失。</p>
-<p>共同点：它们都不能存储对象数据，只能存储字符串数据。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//获取选中的产品的属性getSpuSaleAttr() &#123;  let sale = []  this.spuSaleAttrList.forEach(spuSaleAttr=&gt;&#123;    spuSaleAttr.spuSaleAttrValueList.forEach(spuSaleAttrValue=&gt;&#123;      if(spuSaleAttrValue.isChecked === &#x27;1&#x27;) &#123;        sale.push(&#123;&#x27;attrName&#x27;: spuSaleAttr.saleAttrName, &#x27;attrValue&#x27;: spuSaleAttrValue.saleAttrValueName&#125;)        return      &#125;    &#125;)  &#125;)  return sale&#125;,//加入购物车async addShopCart() &#123;  //发送请求，添加数据到服务器，判断加入购物车是否成功  //仓库中的async reqAddOrUpdateShopCart返回的一定是一个Promise，所以需要添加await，async  try&#123;    let result = await this.$store.dispatch(&#x27;detail/reqAddOrUpdateShopCart&#x27;, &#123;      skuId: this.skuInfo.id,      skuNum: this.skuNum    &#125;)    //服务器存储成功——进行路由跳转    if(result === true) &#123;      this.$router.push(&#123;        name: &#x27;addcartsuccess&#x27;,        query: &#123;          skuNum: this.skuNum        &#125;      &#125;)      //将数据存储到浏览器的会话存储当中      sessionStorage.setItem(&#x27;SKUINFO&#x27;, JSON.stringify(&#123;        skuDefaultImg: this.skuInfo.skuDefaultImg,        skuName: this.skuInfo.skuName,        //获取选中的产品的属性        spuSaleAttr: this.getSpuSaleAttr(),        skuId: this.skuInfo.id      &#125;))    &#125; else &#123;      //服务器存储失败——进行用户提示      alert(&#x27;加入购物车失败！&#x27;)    &#125;  &#125; catch (e) &#123;    console.log(e.message)  &#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>总结：</p>
-<ol>
-<li>先传递<code>skuId</code>和<code>skuNum</code>给服务器</li>
-<li>服务器存储成功——进行路由跳转<ol>
-<li>将<code>Detail</code>组件的中的部分商品数据传给<code>AddShopcartSuccess</code>组件</li>
-<li>将数据存储到浏览器的会话存储(<code>sessionStorage</code>)当中</li>
-</ol>
-</li>
-<li>服务器存储失败——进行用户提示</li>
-</ol>
-</blockquote>
-<h2 id="21、ShopCart组件"><a href="#21、ShopCart组件" class="headerlink" title="21、ShopCart组件"></a>21、ShopCart组件</h2><h3 id="21-1、游客uuid创建"><a href="#21-1、游客uuid创建" class="headerlink" title="21.1、游客uuid创建"></a>21.1、游客uuid创建</h3><p>创建一个<code>utils</code>文件夹，然后创建<code>getUUID.js</code>文件：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; v4 <span class="keyword">as</span> uuidv4 &#125; <span class="keyword">from</span> <span class="string">&#x27;uuid&#x27;</span><span class="keyword">export</span> <span class="keyword">const</span> <span class="title function_">getUUID</span> = (<span class="params"></span>)=&gt;&#123;   <span class="comment">//先从本地存储中获取   let uuid_token = localStorage.getItem(&#x27;UUIDTOKEN&#x27;)   //如果不存在，再生成uuid并存储   if(!uuid_token) &#123;      uuid_token = uuidv4()      localStorage.setItem(&#x27;UUIDTOKEN&#x27;, uuid_token)   &#125;   return uuid_token&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>在有加入购物车功能的组件store模块中，添加<code>uuid_token</code>数据：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">uuid_token</span>: <span class="title function_">getUUID</span>()</span><br></pre></td></tr></table></figure>
-
-<p>在请求拦截器中添加：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//请求拦截器requests.interceptors.request.use(config =&gt; &#123;    //配置对象,在发送请求之前做些什么    //配置游客登录信息    if(store.state.detail.uuid_token) &#123;        //给后台添加一个user字段        config.headers.userTempId = store.state.detail.uuid_token    &#125;    return config&#125;, error =&gt; &#123;&#125;)</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="21-2、获取购物车数据"><a href="#21-2、获取购物车数据" class="headerlink" title="21.2、获取购物车数据"></a>21.2、获取购物车数据</h3><p>查询接口，在组件中发送<code>axios</code>请求：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;    <span class="variable language_">this</span>.<span class="property">$store</span>.<span class="title function_">dispatch</span>(<span class="string">&#x27;shopcart/reqShopCart&#x27;</span>)&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="21-3、修改商品数量——需要做节流"><a href="#21-3、修改商品数量——需要做节流" class="headerlink" title="21.3、修改商品数量——需要做节流"></a>21.3、修改商品数量——需要做节流</h3><p>添加方法，把改变商品的变化量和商品id传递给服务器：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;cart-list-con5&quot;</span>&gt;</span>  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:void(0)&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mins&quot;</span> @<span class="attr">click</span>=<span class="string">&quot;handler(cartInfo.skuNum &gt; 1 ? -1 : 0, cartInfo, &#x27;-&#x27;)&quot;</span>&gt;</span>-<span class="tag">&lt;/<span class="name">a</span>&gt;</span>  <span class="tag">&lt;<span class="name">input</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">type</span>=<span class="string">&quot;number&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;cartInfo.skuNum&quot;</span> <span class="attr">class</span>=<span class="string">&quot;itxt&quot;</span> @<span class="attr">change</span>=<span class="string">&quot;handler($event.target.value * 1, cartInfo, &#x27;change&#x27;)&quot;</span>&gt;</span>  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:void(0)&quot;</span> <span class="attr">class</span>=<span class="string">&quot;plus&quot;</span> @<span class="attr">click</span>=<span class="string">&quot;handler(1, cartInfo, &#x27;-&#x27;)&quot;</span>&gt;</span>+<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>methods：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//改变购物车商品数量handler: throttle(async function (disNum, cartInfo, type)&#123;    //如果是输入值进去的    if (type === &#x27;change&#x27;) &#123;        //排除其他字符和负数        if (isNaN(disNum) || disNum &lt;= 0) &#123;            disNum = 0        &#125; else &#123;            //用户输入的量-原来的数量            disNum = parseInt(disNum) - cartInfo.skuNum        &#125;    &#125;    try &#123;        //给服务器发请求        let result = await this.$store.dispatch(&#x27;detail/reqAddOrUpdateShopCart&#x27;,                                                &#123;            skuId: cartInfo.skuId,            skuNum: disNum        &#125;)        //修改成功，获取服务器最新数据        if (result === true) &#123;            this.getData()        &#125; else &#123;            alert(&#x27;修改失败！&#x27;)        &#125;    &#125; catch (e) &#123;        console.log(e.message)    &#125;&#125;, 1000)</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-<h2 id="22、登录与注册"><a href="#22、登录与注册" class="headerlink" title="22、登录与注册"></a>22、登录与注册</h2><p>登录成功时，后台为了区分用户是谁，会发放一个<code>token</code>。</p>
-<p>一般登录成功服务器会下发token，前台持久化存储token，前台带着token找服务器要数据。</p>
-<p>登录成功后，将服务器返回的token放入到请求头中，这样每次发送请求时服务器就可以判断用户是否登录。</p>
-<p>每次进行路由跳转时都需要判断当前是否已经登录，如果登录了，就要在跳转后发送请求获取用户信息展示到header组件中。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//配置路由守卫router.beforeEach(async (to, from, next)=&gt;&#123;    if(store.state.user.token) &#123;        //用户登录了还想取login组件        if(to.path === &#x27;/login&#x27;)            next(&#x27;/home&#x27;)        else &#123;            //判断            if(store.state.user.userInfo.name) &#123;                next()            &#125; else &#123;                //用户登录后获取用户信息                try &#123;                    let result = await store.dispatch(&#x27;user/getUserInfo&#x27;)                    if(result) &#123;                        next()                    &#125;                &#125; catch (e) &#123;                    //token异常了，就清除token                    store.dispatch(&#x27;user/logout&#x27;)                    console.log(e.message)                    next(&#x27;/login&#x27;)                &#125;            &#125;        &#125;    &#125; else &#123;        next()    &#125;&#125;)</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-<h2 id="23、统一引入所有api"><a href="#23、统一引入所有api" class="headerlink" title="23、统一引入所有api"></a>23、统一引入所有api</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//将所有api引入import * as API from &#x27;@/api&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">beforeCreate</span>(<span class="params"></span>) &#123;  <span class="title class_">Vue</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">$API</span> = <span class="variable constant_">API</span>&#125;</span><br></pre></td></tr></table></figure>
-
-<p>使用时和全局事件总线一致：</p>
-<blockquote>
-<p><strong>this.$API.xxxapi()</strong></p>
-</blockquote>
-<p>不要给生命周期钩子中添加async</p>
-<h2 id="24、生成二维码"><a href="#24、生成二维码" class="headerlink" title="24、生成二维码"></a>24、生成二维码</h2><p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/qrcode">qrcode - npm (npmjs.com)</a></p>
-<p>安装：<code>npm install qrcode</code></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//将支付信息生成二维码let codeUrl = await QRCode.toDataURL(this.payInfo.codeUrl)</span></span><br></pre></td></tr></table></figure>
-
-<p>生成的信息即为img的scr。</p>
-<h2 id="25、图片懒加载"><a href="#25、图片懒加载" class="headerlink" title="25、图片懒加载"></a>25、图片懒加载</h2><p>npm i vue-lazyload -S</p>
-<p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/vue-lazyload">vue-lazyload - npm (npmjs.com)</a></p>
-<p>增加了新的标签：<code>v-lazy</code></p>
-<h2 id="26、vee-validate表单校验"><a href="#26、vee-validate表单校验" class="headerlink" title="26、vee-validate表单校验"></a>26、vee-validate表单校验</h2><p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/vee-validate">vee-validate - npm (npmjs.com)</a></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//vee-validate插件进行表单验证import Vue from &#x27;vue&#x27;import VeeValidate from &#x27;vee-validate&#x27;// 引入中文 messageimport zh_CN from &#x27;vee-validate/dist/locale/zh_CN&#x27;//使用插件Vue.use(VeeValidate)//提示信息VeeValidate.Validator.localize(&#x27;zh_CN&#x27;, &#123;	messages: &#123;		...zh_CN.messages,		is: (field) =&gt; `$&#123;field&#125;必须与密码相同` // 修改内置规则的 message，让确认密码和密码相同	&#125;,	attributes: &#123; // 给校验的 field 属性名映射中文名称		phone: &#x27;手机号&#x27;,		code: &#x27;验证码&#x27;,		password1: &#x27;密码&#x27;,		password2: &#x27;确认密码&#x27;,		agree: &#x27;协议&#x27;	&#125;&#125;)//自定义校验规则//定义协议必须打勾同意VeeValidate.Validator.extend(&#x27;agree&#x27;, &#123;	validate: value =&gt; &#123;		return value	&#125;,	getMessage: field =&gt; field + &#x27;必须同意&#x27;&#125;)</span></span><br></pre></td></tr></table></figure>
-
-<p>需要被校验的输入框：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span>       <span class="attr">placeholder</span>=<span class="string">&quot;请输入你的手机号&quot;</span>       <span class="attr">v-model</span>=<span class="string">&quot;phone&quot;</span>       <span class="attr">name</span>=<span class="string">&quot;phone&quot;</span>       <span class="attr">v-validate</span>=<span class="string">&quot;&#123; required: true, regex: /^1\d&#123;10&#125;$/ &#125;&quot;</span>       <span class="attr">:class</span>=<span class="string">&quot;&#123; invalid: errors.has(&#x27;phone&#x27;) &#125;&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>检验是否全部校验通过：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> success = <span class="keyword">await</span> <span class="variable language_">this</span>.<span class="property">$validator</span>.<span class="title function_">validateAll</span>(); <span class="comment">//全部表单验证</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="27、路由懒加载"><a href="#27、路由懒加载" class="headerlink" title="27、路由懒加载"></a>27、路由懒加载</h2><p>当打包构建应用时，JavaScript 包会变得非常大，影响页面加载。如果我们能把不同路由对应的组件分割成不同的代码块，然后当路由被访问的时候才加载对应组件，这样就更加高效了。</p>
-<p>在引入路由时：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">path</span>: <span class="string">&#x27;/home&#x27;</span>,<span class="attr">component</span>: <span class="function">()=&gt;</span><span class="title function_">import</span>(<span class="string">&#x27;@/pages/Home/Home&#x27;</span>),</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="28、打包上线"><a href="#28、打包上线" class="headerlink" title="28、打包上线"></a>28、打包上线</h2><ol>
-<li><p>打包 npm run build</p>
-</li>
-<li><p>项目打包后，代码都是经过加密压缩的，如果运行时报错，输出的错误信息无法准确得知是哪里报错。所以在打包后的项目中，有一个map文件，可以像未加密的代码一样准确输出哪一行哪一列有错。所以可以去除map文件。</p>
-<p>在 <code>vue.config.js</code> 中，添加 productionSourceMap: false</p>
-</li>
-<li><p>nginx</p>
-</li>
-<li><p>配置：nginx.conf</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">server &#123;        listen       81;        server_name  192.168.138.128;        #charset koi8-r;        #access_log  logs/host.access.log  main;        location / &#123;            root   /root/sph1/dist/;            index  index.html index.htm;        &#125;                location /api&#123;            #接口地址——获取数据的服务器的地址            proxy_pass http://39.98.123.211;         &#125;&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/02/11/Vue%E5%AE%9E%E6%88%98/" data-id="cl0aqsvko000038uw0uu64dr6" data-title="Vue实战" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vue/" rel="tag">Vue</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
